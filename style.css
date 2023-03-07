@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto', 'arial', 'sans-serif';
+    margin: 0;
+    padding: 0;
 }
 
 /* Styles for the header */
@@ -125,4 +127,50 @@ figcaption{
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+}
+
+/*Call to action section style */
+
+.call-to-action-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-content-container {
+    display: flex;
+    background-color: #3882F6;
+    width: 900px;
+    padding: 100px 100px 100px 200px;
+}
+
+.call-to-action-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action-button{
+    align-self: center;
+}
+
+.call-to-action-header-text{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+.call-to-action-subtext{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* footer style */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
 }
