@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', 'arial', 'sans-serif';
+}
+
+/* Styles for the header */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+
+.header {
+    display: flex;
+    align-items: space-evenly;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header-and-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.header-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 60px;
+   gap: 60px;
+}
+
+.header-image {
+    width: 500px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.header-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero-main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-sec-text,
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-signup {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 4px 2px;
+}   
+
+
+/* Information Section Styling */
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.information-images {
+    margin-top: 80px;
+}
+
+.figure-info-image {
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+figcaption{
+    width: 180px;
+    text-align: center;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
