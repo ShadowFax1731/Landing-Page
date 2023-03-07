@@ -109,3 +109,20 @@ figcaption{
     color: #1F2937;
 }
 
+/* Quote section style */
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
